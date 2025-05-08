@@ -1,0 +1,21 @@
+import random
+import time
+
+cositas_bonitas = [
+    "Eres una persona increíble 🌟",
+    "Tu sonrisa tiene el poder de alegrar cualquier día 😊",
+    "El mundo es un lugar mejor contigo en él 💖",
+    "Tienes una luz única que ilumina a quienes te rodean ✨",
+    "Nunca olvides lo valioso/a que eres 💎",
+    "Eres más fuerte de lo que crees 💪",
+    "Tienes un corazón precioso ❤️",
+    "Sigue brillando, incluso en los días nublados ☀️",
+    "Tu bondad es contagiosa 🌼",
+    "Cada paso que das deja huellas bonitas en el mundo 👣"
+]
+
+print("💬 Cositas bonitas para ti 💬\n")
+
+for _ in range(3):  # Puedes cambiar el número de mensajes que quieres mostrar
+    print(random.choice(cositas_bonitas))
+    time.sleep(1.5)  # Pausa para hacerlo más tierno
